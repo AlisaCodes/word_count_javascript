@@ -1,11 +1,3 @@
-body {
-  /*background:url('/img/boy-counting-money.jpg');*/
-  background: rgba(0, 0, 0, .3);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-
 #result {
   display: none;
 }

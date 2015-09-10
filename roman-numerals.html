@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Damion' rel='stylesheet' type='text/css'>
+  <script src="js/jquery-1.11.3.js"></script>
+  <script src="js/scripts.js"></script>
+  <script src="semantic/dist/semantic.min.js"></script>
+  <title>Roman Numerals</title>
+</head>
+<body>
+  <div class="ui center aligned container top">
+    <h1 class="ui header">Convert to Roman Numerals</h1>
+    <p>Enter a number:</p>
+    <form id="roman-numerals" class="ui form">
+      <div class="field ui input">
+        <input id="number" placeholder="397" type="text">
+      </div>
+      <div>
+        <button type="submit" class="ui primary button">Convert</button>
+      </div>
+    </form>
+
+    <div class="ui basic modal">
+      <i class="close icon"></i>
+      <div class="header">
+        Roman Numeralized
+      </div>
+      <div class="image content">
+        <div class="description">
+          <div id="result">
+            <p><span class="roman-numerals"></span></p>
+          </div>
+        </div>
+        <div class="image">
+          <img src="https://pixabay.com/get/19d95c5de84e94f7d2ea/1441913874/gladiator-161704_1280.png?direct" width="200px">
+        </div>
+      </div>
+      <!-- <div class="actions">
+        <div class="two fluid ui inverted buttons">
+          <div class="ui red basic inverted button">
+            <i class="remove icon"></i>
+            No
+          </div>
+          <div class="ui green basic inverted button">
+            <i class="checkmark icon"></i>
+            Yes
+          </div>
+        </div>
+      </div> -->
+    </div>
+
+  </div>
+</body>
+</html>
