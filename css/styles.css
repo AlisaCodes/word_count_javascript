@@ -1,0 +1,23 @@
+body {
+  /*background:url('/img/boy-counting-money.jpg');*/
+  background: rgba(0, 0, 0, .3);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#result {
+  display: none;
+}
+
+.ui.input {
+  width:20%;
+}
+
+.ui.input input {
+  text-align: center;
+}
+
+.top {
+  margin-top: 20%;
+}
